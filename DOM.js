@@ -3,11 +3,11 @@ let bulb = document.getElementById('bulb')
 btn.addEventListener('click', togglebulb)
 function togglebulb(e){
     if (btn.textContent.includes('on')){
-        bulb.src="./assets1/bulb_on.png"
+        bulb.src="./assets/bulb_on.png"
         btn.textContent = "Turn off"
     }
     else{
-        bulb.src="./assets1/bulb_off.png"
+        bulb.src="./assets/bulb_off.png"
         btn.textContent ="turn On"
     }
 }
